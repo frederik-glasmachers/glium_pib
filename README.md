@@ -5,6 +5,8 @@ Note:
 This library does not provide any glutin functionality.
 So there is no event mechanism to get mouse or keyboard input from.
 
+[![Build Status](https://travis-ci.org/pentagolo/glium_pib.svg?branch=master)](https://travis-ci.org/pentagolo/glium_pib)
+
 # Example
 ```rust
 #[macro_use] extern crate glium;
