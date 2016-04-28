@@ -2,9 +2,21 @@
 name = "glium_pib"
 version = "0.1.0"
 authors = ["frede <frederik.glasmachers@tu-dortmund.de>"]
+license = "MIT"
+keywords = ["opengl", "gamedev", "glium", "rpi", "raspberrypi"]
+description = """
+Backend for the glium library which allows it to be used on the raspberry pi without X.
+
+Note:
+This library does not provide any glutin functionality.
+So there is no event mechanism to get mouse or keyboard input from.
+"""
+documentation = "https://pentagolo.github.io/glium_pib/glium_pib/"
+repository = "https://github.com/pentagolo/glium_pib"
+exclude = [".travis.yml"]
 
 [dependencies]
-glium = "*"
-shared_library = "*"
-libc = "*"
+glium = "0.14.0"
+shared_library = "0.1.4"
+libc = "0.2.10"
 
