@@ -1,4 +1,4 @@
-# glium_pi_backend
+# glium_pib
 Backend for the glium library which allows it to be used on the raspberry pi without X.
 
 Note:
@@ -8,7 +8,7 @@ So there is no event mechanism to get mouse or keyboard input from.
 # Example
 ```rust
 #[macro_use] extern crate glium;
-extern crate glium_pi_backend;
+extern crate glium_pib;
 
 #[derive(Copy, Clone)]
 struct Vertex {
@@ -35,7 +35,7 @@ fn main() {
 		Err(_) => {
 			println!("Failed to create X window.");
 			println!("Trying to use broadcom libraries for the raspberry pi.");
-			let system = glium_pi_backend::System::new(Default::default());
+			let system = glium_pib::System::new(Default::default());
 			let system = match system {
 				Ok(s) => s,
 				Err(_) => {
@@ -44,7 +44,7 @@ fn main() {
 				}
 			};
 			let system = Arc::new(system);
-			let facade = glium_pi_backend::create_window_facade(
+			let facade = glium_pib::create_window_facade(
 				&system,
 				&std::default::Default::default()
 			);
