@@ -3,7 +3,7 @@ name = "glium_pib"
 version = "0.1.0"
 authors = ["frede <frederik.glasmachers@tu-dortmund.de>"]
 license = "MIT"
-keywords = ["opengl", "gamedev", "glium", "rpi", "raspberrypi", "videocore", "bcm", "broadcom"]
+keywords = ["opengl", "glium", "rpi", "raspberrypi", "videocore"]
 description = """
 Backend for the glium library which allows it to be used on the raspberry pi without X.
 
