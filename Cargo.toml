@@ -1,0 +1,10 @@
+[package]
+name = "glium_pi_backend"
+version = "0.1.0"
+authors = ["frede <frederik.glasmachers@tu-dortmund.de>"]
+
+[dependencies]
+glium = "*"
+shared_library = "*"
+libc = "*"
+
