@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Display","Possible displays. Defaults to Hdmi."]],"struct":[["ColorBits","Wrapper for color bits. Defaults to 8."],["DepthBits","Wrapper for depth bits. Defaults to 16."],["LibDir","Wrapper for the directory where the libraries are stored. Defaults to /opt/vc/lib"],["WindowConfig","Window configuration."]]});
