@@ -1,5 +1,5 @@
 [package]
-name = "glium_pi_backend"
+name = "glium_pib"
 version = "0.1.0"
 authors = ["frede <frederik.glasmachers@tu-dortmund.de>"]
 
